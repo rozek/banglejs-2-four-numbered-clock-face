@@ -15,7 +15,7 @@ This module draws a face with the numbers 3, 6, 9 and 12 for an analog clock run
 
 Within a clock implementation, the module may be used as follows:
 
-```
+```javascript
 let Clockwork = require(...);
 Clockwork.windUp({
   face:require('https://raw.githubusercontent.com/rozek/banglejs-2-four-numbered-clock-face/main/ClockFace.js'),
@@ -29,7 +29,7 @@ Clockwork.windUp({
 
 The following code shows a complete example for a (still simple) analog clock using this clock face:
 
-```
+```javascript
 let Clockwork = require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clockwork/main/Clockwork.js');
 
 Clockwork.windUp({
